@@ -35,16 +35,17 @@ The following table summarizes the key performance metrics extracted from the tr
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **ResNet** | MicroResNet (3 stages) | **99.31%** | 174,970 | ~21s | CUDA |
 | **CNN** | Standard 2-Layer ConvNet | 98.82% | ~207,000 | ~14s | CUDA |
-| **SNN** | Spiking Neural Network | 98.56% | N/A | ~1750s | CPU |
+| **SNN** | Spiking Neural Network | 98.56% | 206.922 | ~1750s | CPU |
 | **DBN** | Deep Belief Network (RBM Stack) | 98.44% | ~670,000 | ~8s (fine-tune) | CUDA |
-| **MAPSIAM** | SimSiam Self-Supervised + GBM | 98.24% | N/A | ~47s (pre-train) | CUDA |
+| **MAPSIAM** | SimSiam Self-Supervised + GBM | 98.24% | 93k* | ~47s (pre-train) | CUDA |
 | **MLP** | 3-Layer Perceptron (784-512-256-10) | 97.81% | 535,818 | ~15s | CUDA |
 | **ViT** | Vision Transformer (Patch Size 4) | 96.97% | 540,170 | ~24.5s | CUDA |
 | **GAN** | Discriminator as Classifier | 95.54% | N/A | ~12s | CUDA |
-| **U-Net** | Encoder-Decoder (Denoising Pre-train) | 93.93% | N/A | ~13s | CUDA |
-| **B-VAE** | Beta-VAE (Latent Classification) | 88.66% | N/A | ~6s | CUDA |
+| **U-Net** | Encoder-Decoder (Denoising Pre-train) | 93.93% | ~1.15M | ~13s | CUDA |
+| **B-VAE** | Beta-VAE (Latent Classification) | 88.66% | 653k | ~6s | CUDA |
 
 > **Note:** *Time / Epoch* refers to the average training time per epoch as recorded in the logs. *Params* refers to the total number of trainable parameters.
+> *Refers to the Backbone Encoder used for feature extraction. Total training params (with Projector/Predictor) is ~8.7M.
 
 ## Analysis & Discussion
 
