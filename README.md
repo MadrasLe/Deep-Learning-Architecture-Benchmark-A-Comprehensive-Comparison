@@ -8,6 +8,7 @@
 ![CUDA](https://img.shields.io/badge/NVIDIA_CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![Norse](https://img.shields.io/badge/SNN-Norse-purple?style=for-the-badge)
 ![License](https://img.shields.io/github/license/MadrasLe/ArenaModelTimehistory?style=for-the-badge&color=green)
+![Champion](https://img.shields.io/badge/Current_Champion-MicroResNet_(99.3%25)-gold?style=for-the-badge&logo=trophy)
 
 </div>
 
