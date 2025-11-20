@@ -40,7 +40,7 @@ The following table summarizes the key performance metrics extracted from the tr
 | **MAPSIAM** | SimSiam Self-Supervised + GBM | 98.24% | 93k* | ~47s (pre-train) | CUDA |
 | **MLP** | 3-Layer Perceptron (784-512-256-10) | 97.81% | 535,818 | ~15s | CUDA |
 | **ViT** | Vision Transformer (Patch Size 4) | 96.97% | 540,170 | ~24.5s | CUDA |
-| **GAN** | Discriminator as Classifier | 95.54% | N/A | ~12s | CUDA |
+| **GAN** | Discriminator as Classifier | 95.54% | 536k | ~12s | CUDA |
 | **U-Net** | Encoder-Decoder (Denoising Pre-train) | 93.93% | ~1.15M | ~13s | CUDA |
 | **B-VAE** | Beta-VAE (Latent Classification) | 88.66% | 653k | ~6s | CUDA |
 
