@@ -1,0 +1,27 @@
+🖥️  Device: cpu
+100% 9.91M/9.91M [00:00<00:00, 144MB/s]
+100% 28.9k/28.9k [00:00<00:00, 16.9MB/s]
+100% 1.65M/1.65M [00:00<00:00, 36.0MB/s]
+100% 4.54k/4.54k [00:00<00:00, 10.5MB/s]
+train:   0% 0/938 [00:00<?, ?it/s]/usr/local/lib/python3.12/dist-packages/torch/utils/data/dataloader.py:666: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+train: 100% 938/938 [26:57<00:00,  1.72s/it]
+eval: 100% 157/157 [01:36<00:00,  1.62it/s]
+[Epoch 1] train_loss=0.2953 acc=0.9203 | val_loss=0.2009 acc=0.9366 | 1714.8s
+💾 Checkpoint salvo (acc=0.9366)
+train: 100% 938/938 [28:10<00:00,  1.80s/it]
+eval: 100% 157/157 [01:34<00:00,  1.66it/s]
+[Epoch 2] train_loss=0.1215 acc=0.9624 | val_loss=0.0950 acc=0.9694 | 1785.4s
+💾 Checkpoint salvo (acc=0.9694)
+train: 100% 938/938 [27:54<00:00,  1.79s/it]
+eval: 100% 157/157 [01:33<00:00,  1.68it/s]
+[Epoch 3] train_loss=0.1088 acc=0.9655 | val_loss=0.0664 acc=0.9791 | 1768.0s
+💾 Checkpoint salvo (acc=0.9791)
+train: 100% 938/938 [27:21<00:00,  1.75s/it]
+eval: 100% 157/157 [01:31<00:00,  1.71it/s]
+[Epoch 4] train_loss=0.0622 acc=0.9808 | val_loss=0.0511 acc=0.9829 | 1733.0s
+💾 Checkpoint salvo (acc=0.9829)
+train: 100% 938/938 [27:36<00:00,  1.77s/it]
+eval: 100% 157/157 [01:32<00:00,  1.71it/s]
+[Epoch 5] train_loss=0.0463 acc=0.9856 | val_loss=0.0435 acc=0.9856 | 1749.0s
+💾 Checkpoint salvo (acc=0.9856)

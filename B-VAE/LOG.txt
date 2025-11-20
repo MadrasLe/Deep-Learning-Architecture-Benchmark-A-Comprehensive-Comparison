@@ -1,0 +1,65 @@
+🖥️  Device: cuda
+
+--- FASE 1: TREINANDO O VAE ---
+VAE Epoch 1: 100% 469/469 [00:07<00:00, 60.85it/s]
+Epoch 1 Avg. VAE Loss: 163.2638 (beta=1.0)
+VAE Epoch 2: 100% 469/469 [00:06<00:00, 69.90it/s]
+Epoch 2 Avg. VAE Loss: 121.0506 (beta=1.0)
+VAE Epoch 3: 100% 469/469 [00:07<00:00, 61.35it/s]
+Epoch 3 Avg. VAE Loss: 114.3637 (beta=1.0)
+VAE Epoch 4: 100% 469/469 [00:06<00:00, 70.36it/s]
+Epoch 4 Avg. VAE Loss: 111.4150 (beta=1.0)
+VAE Epoch 5: 100% 469/469 [00:07<00:00, 61.88it/s]
+Epoch 5 Avg. VAE Loss: 109.6232 (beta=1.0)
+VAE Epoch 6: 100% 469/469 [00:06<00:00, 67.90it/s]
+Epoch 6 Avg. VAE Loss: 108.5093 (beta=1.0)
+VAE Epoch 7: 100% 469/469 [00:07<00:00, 61.24it/s]
+Epoch 7 Avg. VAE Loss: 107.6983 (beta=1.0)
+VAE Epoch 8: 100% 469/469 [00:07<00:00, 61.47it/s]
+Epoch 8 Avg. VAE Loss: 107.0077 (beta=1.0)
+VAE Epoch 9: 100% 469/469 [00:06<00:00, 69.44it/s]
+Epoch 9 Avg. VAE Loss: 106.4931 (beta=1.0)
+VAE Epoch 10: 100% 469/469 [00:07<00:00, 61.82it/s]
+Epoch 10 Avg. VAE Loss: 106.1002 (beta=1.0)
+
+--- FASE 2: TREINANDO O CLASSIFICADOR ---
+Classifier Train: 100% 469/469 [00:06<00:00, 74.30it/s]
+Classifier Eval: 100% 79/79 [00:01<00:00, 73.32it/s]
+[Classifier Epoch 1] Train Loss=1.5732 Acc=0.5565 | Test Loss=1.0241 Acc=0.7936
+💾 Checkpoint salvo (acc=0.7936)
+Classifier Train: 100% 469/469 [00:06<00:00, 67.24it/s]
+Classifier Eval: 100% 79/79 [00:01<00:00, 75.83it/s]
+[Classifier Epoch 2] Train Loss=0.8506 Acc=0.8141 | Test Loss=0.6916 Acc=0.8399
+💾 Checkpoint salvo (acc=0.8399)
+Classifier Train: 100% 469/469 [00:07<00:00, 66.09it/s]
+Classifier Eval: 100% 79/79 [00:01<00:00, 74.44it/s]
+[Classifier Epoch 3] Train Loss=0.6440 Acc=0.8447 | Test Loss=0.5630 Acc=0.8598
+💾 Checkpoint salvo (acc=0.8598)
+Classifier Train: 100% 469/469 [00:06<00:00, 74.30it/s]
+Classifier Eval: 100% 79/79 [00:01<00:00, 74.59it/s]
+[Classifier Epoch 4] Train Loss=0.5521 Acc=0.8569 | Test Loss=0.4966 Acc=0.8700
+💾 Checkpoint salvo (acc=0.8700)
+Classifier Train: 100% 469/469 [00:07<00:00, 64.67it/s]
+Classifier Eval: 100% 79/79 [00:01<00:00, 75.21it/s]
+[Classifier Epoch 5] Train Loss=0.5009 Acc=0.8634 | Test Loss=0.4569 Acc=0.8744
+💾 Checkpoint salvo (acc=0.8744)
+Classifier Train: 100% 469/469 [00:06<00:00, 67.78it/s]
+Classifier Eval: 100% 79/79 [00:01<00:00, 58.95it/s]
+[Classifier Epoch 6] Train Loss=0.4688 Acc=0.8685 | Test Loss=0.4306 Acc=0.8799
+💾 Checkpoint salvo (acc=0.8799)
+Classifier Train: 100% 469/469 [00:06<00:00, 73.90it/s]
+Classifier Eval: 100% 79/79 [00:01<00:00, 74.39it/s]
+[Classifier Epoch 7] Train Loss=0.4472 Acc=0.8711 | Test Loss=0.4126 Acc=0.8823
+💾 Checkpoint salvo (acc=0.8823)
+Classifier Train: 100% 469/469 [00:07<00:00, 64.91it/s]
+Classifier Eval: 100% 79/79 [00:01<00:00, 74.95it/s]
+[Classifier Epoch 8] Train Loss=0.4318 Acc=0.8733 | Test Loss=0.3993 Acc=0.8828
+💾 Checkpoint salvo (acc=0.8828)
+Classifier Train: 100% 469/469 [00:06<00:00, 73.54it/s]
+Classifier Eval: 100% 79/79 [00:01<00:00, 49.88it/s]
+[Classifier Epoch 9] Train Loss=0.4204 Acc=0.8747 | Test Loss=0.3898 Acc=0.8851
+💾 Checkpoint salvo (acc=0.8851)
+Classifier Train: 100% 469/469 [00:06<00:00, 70.74it/s]
+Classifier Eval: 100% 79/79 [00:01<00:00, 50.11it/s]
+[Classifier Epoch 10] Train Loss=0.4118 Acc=0.8756 | Test Loss=0.3821 Acc=0.8866
+💾 Checkpoint salvo (acc=0.8866)

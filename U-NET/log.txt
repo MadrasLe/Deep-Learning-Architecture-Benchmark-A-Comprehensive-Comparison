@@ -1,0 +1,35 @@
+🖥️  Device: cuda
+
+--- FASE 1: PRÉ-TREINANDO A U-NET ---
+Denoise Epoch 1: 100% 938/938 [00:27<00:00, 34.20it/s]
+Denoise Epoch 1 concluída.
+Denoise Epoch 2: 100% 938/938 [00:27<00:00, 33.97it/s]
+Denoise Epoch 2 concluída.
+Denoise Epoch 3: 100% 938/938 [00:28<00:00, 32.90it/s]
+Denoise Epoch 3 concluída.
+Denoise Epoch 4: 100% 938/938 [00:28<00:00, 32.47it/s]
+Denoise Epoch 4 concluída.
+Denoise Epoch 5: 100% 938/938 [00:28<00:00, 32.99it/s]
+Denoise Epoch 5 concluída.
+
+--- FASE 2: TREINANDO O CLASSIFICADOR ---
+Classifier Train: 100% 938/938 [00:13<00:00, 69.72it/s]
+Classifier Eval: 100% 157/157 [00:02<00:00, 76.53it/s]
+[Classifier Epoch 1] Train Loss=1.4346 Acc=0.6627 | Test Loss=0.9798 Acc=0.8370
+💾 Checkpoint salvo (acc=0.8370)
+Classifier Train: 100% 938/938 [00:13<00:00, 69.18it/s]
+Classifier Eval: 100% 157/157 [00:02<00:00, 69.87it/s]
+[Classifier Epoch 2] Train Loss=0.8393 Acc=0.8587 | Test Loss=0.6614 Acc=0.9035
+💾 Checkpoint salvo (acc=0.9035)
+Classifier Train: 100% 938/938 [00:13<00:00, 67.53it/s]
+Classifier Eval: 100% 157/157 [00:02<00:00, 66.10it/s]
+[Classifier Epoch 3] Train Loss=0.6160 Acc=0.8986 | Test Loss=0.5048 Acc=0.9236
+💾 Checkpoint salvo (acc=0.9236)
+Classifier Train: 100% 938/938 [00:14<00:00, 65.38it/s]
+Classifier Eval: 100% 157/157 [00:02<00:00, 77.56it/s]
+[Classifier Epoch 4] Train Loss=0.4961 Acc=0.9140 | Test Loss=0.4156 Acc=0.9304
+💾 Checkpoint salvo (acc=0.9304)
+Classifier Train: 100% 938/938 [00:13<00:00, 71.25it/s]
+Classifier Eval: 100% 157/157 [00:02<00:00, 77.92it/s]
+[Classifier Epoch 5] Train Loss=0.4168 Acc=0.9241 | Test Loss=0.3527 Acc=0.9393
+💾 Checkpoint salvo (acc=0.9393)

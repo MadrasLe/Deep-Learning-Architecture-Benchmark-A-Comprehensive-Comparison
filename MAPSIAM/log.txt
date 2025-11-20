@@ -1,0 +1,38 @@
+Usando dispositivo: cuda
+
+--- FASE 1: INICIANDO PRÉ-TREINAMENTO COM SIMSIAM ---
+Epoch [SimSiam] 1/5: 100% 117/117 [00:46<00:00,  2.51it/s, loss=-0.834]
+Epoch [SimSiam] 2/5: 100% 117/117 [00:47<00:00,  2.45it/s, loss=-0.888]
+Epoch [SimSiam] 3/5: 100% 117/117 [00:47<00:00,  2.48it/s, loss=-0.874]
+Epoch [SimSiam] 4/5: 100% 117/117 [00:47<00:00,  2.47it/s, loss=-0.9]
+Epoch [SimSiam] 5/5: 100% 117/117 [00:46<00:00,  2.51it/s, loss=-0.89]
+--- FASE 1: PRÉ-TREINAMENTO SIMSIAM CONCLUÍDO ---
+
+--- FASE 2: PREPARANDO DADOS PARA O CLASSIFICADOR GBM ---
+Extraindo Embeddings: 100% 118/118 [00:12<00:00,  9.68it/s]
+Extraindo Embeddings: 100% 20/20 [00:02<00:00,  7.70it/s]
+Embeddings de treino gerados. Shape: (60000, 1152)
+Embeddings de teste gerados. Shape: (10000, 1152)
+
+--- FASE 2: TREINANDO O CLASSIFICADOR GBM (LIGHTGBM) ---
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.629027 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 161842
+[LightGBM] [Info] Number of data points in the train set: 60000, number of used features: 649
+[LightGBM] [Info] Start training from score -2.315501
+[LightGBM] [Info] Start training from score -2.185988
+[LightGBM] [Info] Start training from score -2.309610
+[LightGBM] [Info] Start training from score -2.280987
+[LightGBM] [Info] Start training from score -2.329271
+[LightGBM] [Info] Start training from score -2.404064
+[LightGBM] [Info] Start training from score -2.316346
+[LightGBM] [Info] Start training from score -2.259366
+[LightGBM] [Info] Start training from score -2.327732
+[LightGBM] [Info] Start training from score -2.311121
+--- FASE 2: TREINO DO GBM CONCLUÍDO ---
+
+--- AVALIANDO O CLASSIFICADOR GBM NO DATASET DE TESTE ---
+/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py:2739: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+
+Acurácia do classificador GBM (com features do SimSiam): 98.24 %

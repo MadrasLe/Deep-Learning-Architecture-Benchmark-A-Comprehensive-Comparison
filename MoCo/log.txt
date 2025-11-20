@@ -1,0 +1,32 @@
+Usando dispositivo: cuda
+
+--- FASE 1: INICIANDO PRÉ-TREINAMENTO COM MOCO ---
+Epoch [MoCo] 1/10: 100% 234/234 [00:44<00:00,  5.20it/s, loss=6.94]
+Epoch [MoCo] 2/10: 100% 234/234 [00:47<00:00,  4.93it/s, loss=6.37]
+Epoch [MoCo] 3/10: 100% 234/234 [00:46<00:00,  5.03it/s, loss=5.88]
+Epoch [MoCo] 4/10: 100% 234/234 [00:46<00:00,  5.05it/s, loss=5.29]
+Epoch [MoCo] 5/10: 100% 234/234 [00:46<00:00,  5.04it/s, loss=4.95]
+Epoch [MoCo] 6/10: 100% 234/234 [00:47<00:00,  4.92it/s, loss=4.7]
+Epoch [MoCo] 7/10: 100% 234/234 [00:45<00:00,  5.09it/s, loss=4.42]
+Epoch [MoCo] 8/10: 100% 234/234 [00:47<00:00,  4.89it/s, loss=4.12]
+Epoch [MoCo] 9/10: 100% 234/234 [00:51<00:00,  4.53it/s, loss=4.19]
+Epoch [MoCo] 10/10: 100% 234/234 [00:47<00:00,  4.90it/s, loss=4.11]
+--- FASE 1: PRÉ-TREINAMENTO MOCO CONCLUÍDO ---
+
+--- FASE 2: INICIANDO TREINO DO CLASSIFICADOR (TRANSFER LEARNING) ---
+Congelando pesos do encoder pré-treinado...
+Epoch [Classifier] 1/10: 100% 235/235 [00:18<00:00, 12.37it/s, loss=1.57]
+Epoch [Classifier] 2/10: 100% 235/235 [00:19<00:00, 12.16it/s, loss=0.98]
+Epoch [Classifier] 3/10: 100% 235/235 [00:18<00:00, 12.61it/s, loss=0.761]
+Epoch [Classifier] 4/10: 100% 235/235 [00:19<00:00, 12.25it/s, loss=0.591]
+Epoch [Classifier] 5/10: 100% 235/235 [00:18<00:00, 12.54it/s, loss=0.648]
+Epoch [Classifier] 6/10: 100% 235/235 [00:19<00:00, 12.26it/s, loss=0.471]
+Epoch [Classifier] 7/10: 100% 235/235 [00:19<00:00, 12.30it/s, loss=0.43]
+Epoch [Classifier] 8/10: 100% 235/235 [00:18<00:00, 12.45it/s, loss=0.237]
+Epoch [Classifier] 9/10: 100% 235/235 [00:18<00:00, 12.49it/s, loss=0.272]
+Epoch [Classifier] 10/10: 100% 235/235 [00:19<00:00, 11.96it/s, loss=0.303]
+--- FASE 2: TREINO DO CLASSIFICADOR CONCLUÍDO ---
+
+--- AVALIANDO O CLASSIFICADOR FINAL NO DATASET DE TESTE ---
+
+Acurácia do classificador (treinado com features do MoCo): 95.43 %
